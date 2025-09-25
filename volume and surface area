@@ -1,0 +1,30 @@
+/*
+Name:Phelix Owuor Odira
+Reg No:PA106/G/28838/25
+Date:22/09/2025
+Description:Program to compute volume and surface area of a cylinder
+Volume(V)=πr²h
+Surface area(SA)=2πr²+2πrh
+*/
+
+#include<stdio.h> 
+{
+int main () {
+    //variable devlaration
+    float radius,height ;
+    float volume,surface area ;
+    //prompt the user to enter radius
+    printf("enter radius: ") ;
+    scanf("%f",radius) ;
+    //prompt the user to enter height
+    printf("enter height :");
+    scanf("%f",height) ;
+    // calculate volume and surface area
+    volume=πr²h ;
+    surface area=2πr²+2πrh ;
+    // calculation outcomes
+    printf("volume of the cylinder:%.2f \n", volume) ;
+    printf("surface area:%.2f \n",surface area) ;
+    return(0) ;
+    {
+    

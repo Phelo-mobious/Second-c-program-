@@ -1,0 +1,32 @@
+/*
+Name:Phelix Owuor
+Reg No:PA106/G/28838/25
+Date:22/09/2025
+Description:program to display loan qualification at a bank
+age=>21 years
+income=> Ksh.21000
+*/
+#include<stdio.h>
+
+int main( ) {
+    // variable declaration 
+    int age=21 ; 
+    float income=21000 ;
+    //prompt for age
+    printf("enter age:");
+    scanf("%f",age);
+    //prompt for income
+    printf("enter  income:") ;
+    scanf("%f",income);
+    //applicant loan qualifications
+     
+        printf("congratulations!! you qualify for a loan \n");
+    
+        printf("unfortunately, we are unable to offer you a loan at this  moment \n") ;
+    
+ return (0) ;
+    
+}    
+
+
+	
